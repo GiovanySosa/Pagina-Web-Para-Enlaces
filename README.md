@@ -6,7 +6,4 @@ Si deseas usarla adelante.
 
 
 Fotos: 
-[![Pagina-Web1.png](https://i.postimg.cc/3JsGfCc7/Pagina-Web1.png)](https://postimg.cc/0bCrbmvH)
-
-
-[![Pagina-Web2.png](https://i.postimg.cc/XJYBB2pK/Pagina-Web2.png)](https://postimg.cc/67FpDfVT)
+[![Pagina-Web1.png](https://i.postimg.cc/3JsGfCc7/Pagina-Web1.png)](https://postimg.cc/0bCrbmvH) [![Pagina-Web2.png](https://i.postimg.cc/XJYBB2pK/Pagina-Web2.png)](https://postimg.cc/67FpDfVT)
