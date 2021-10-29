@@ -1,0 +1,190 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  
+  display: grid;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  background: #00406b;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+  display: grid;
+  margin-top: 55px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+
+.logo {
+  display: grid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
+  position: relative;
+  top: 30px; 
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 80px;
+  background-color: cornflowerblue;
+  border: 2px solid rgb(0, 217, 255);
+}
+
+.a:hover {
+    background-color: transparent;
+    transition: 1s;
+}
+
+
+.YT:hover {
+    color: rgb(241, 0, 0);
+    transition: 0.5s;
+}
+
+.Twitch:hover {
+    color: rgb(133, 0, 241);
+    transition: 0.5s;
+}
+
+.Instagram:hover {
+    color: rgb(255, 75, 225);
+    transition: 0.5s;
+}
+
+.Twitter:hover {
+    color: rgb(102, 221, 236);
+    transition: 0.5s;
+}
+
+.Discord:hover {
+    color: rgb(0, 55, 173);
+    transition: 0.5s;
+}
+
+.Donaciones:hover {
+    color: rgb(16, 8, 133);
+    transition: 0.5s;
+}
+
+.Onlyfans:hover {
+    color: rgb(255, 139, 216);
+    transition: 0.5s;
+}
+
+.Github:hover {
+    color: rgb(129, 129, 129);
+    transition: 0.5s;
+}
+
+.redes {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 120px;
+  
+}
+
+
+a {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
+  top: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border-radius: 6px;
+  border: 2px solid white;
+  
+}
+
+i {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.Twitch {
+    top: 25px;
+}
+
+.Instagram {
+    top: 35px;
+}
+
+.Twitter {
+    top: 45px;
+
+}
+
+.Discord {
+    top: 55px;
+ 
+}
+
+.Donaciones {
+    top: 65px;
+  
+}
+
+.Onlyfans {
+    top: 75px;
+   
+}
+
+.Github {
+    top: 85px;
+
+}
+
+
+@media screen and (min-width: 650px) {
+  a {
+  width: 700px;
+  height: 60px;
+  
+}
+  
+}
+
+
+@media screen and (max-width: 650px) {
+  a {
+  width: 300px;
+  height: 60px;
+  
+}
+  
+}
+  
